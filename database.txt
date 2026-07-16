@@ -1,0 +1,9 @@
+create database complaint;
+use complaint;
+
+create table user_complaint(complaint_id int,
+username varchar(50),
+complaint_details varchar(1000),
+status varchar(50), 
+complaint_date varchar(65));
+
